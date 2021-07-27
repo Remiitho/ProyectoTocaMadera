@@ -201,12 +201,29 @@ div {
 
 }
 
-.tableBlack  {
+$headings: (
 
-    color: black;
-    border-color: black;
+    h1: 200px,
+    h2: 100px,
+    h3: 50px,
+    h4: 25px,
 
-} 
+);
+
+$h1 : map-get($headings, h1 );
+
+h1 {
+    font-size: $h1;
+}
+
+$colores: (
+
+    primario: #0000,
+    secundario: #804000
+);
+
+
+
 
 
 
