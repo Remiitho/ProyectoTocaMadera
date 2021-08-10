@@ -7320,6 +7320,9 @@ div {
   border-radius: 5px;
   line-height: 1.7; }
 
+.errorFont {
+  font-size: 60px; }
+
 .boton {
   display: inline-block;
   margin-top: 15px;
