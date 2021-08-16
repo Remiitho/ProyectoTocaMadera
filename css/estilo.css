@@ -7229,8 +7229,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footerBT {
   background-color: rgba(66, 49, 26, 0.5);
-  width: 100vh;
-  min-width: 101.33%; }
+  width: 102.1%; }
 
 .footerBTcrear {
   background-color: rgba(66, 49, 26, 0.5);
@@ -7242,8 +7241,7 @@ a.text-dark:hover, a.text-dark:focus {
 .container-md,
 .container-lg,
 .container-xl {
-  padding-left: 0px;
-  padding-right: 0px; }
+  padding-left: 0px; }
 
 .parallaxIndex {
   background-image: url("../Assets/Images/Madera4.jpg");
