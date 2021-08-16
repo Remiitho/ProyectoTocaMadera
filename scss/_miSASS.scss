@@ -1,5 +1,6 @@
 /**{margin: 0; padding: 0;}*/
 
+
 @font-face {
 
     font-family: 'Font Logo';
@@ -23,7 +24,7 @@
 
     
     font-family: 'Font Logo', sans-serif;
-    font-size: 700%;
+    font-size: 500%;
     font-weight: normal;
     font-style: normal;
     color: brown;
@@ -58,8 +59,17 @@
 .footerBT {
     
     background-color: rgba(66, 49, 26, 0.5);
+    width: 1907px;
     
-    }
+}
+
+.footerBTcrear {
+
+    background-color: rgba(66, 49, 26, 0.5);
+    width: 1500px;
+
+
+}
     
 
 .paddingBT {
@@ -70,10 +80,12 @@
 
 .container-fluid {
 
-    padding-left: 0;
-    padding-right: 0;
-    
+    padding-left: 0px;
+    padding-right: 0px;
+
 }
+
+
 
 .parallaxIndex {
 
@@ -154,6 +166,11 @@ div {
     font-size: 20px;
 }
 
+.negrita {
+
+    font-weight: 500;
+
+}
 
 .footerFont {
 
@@ -207,26 +224,6 @@ div {
 
 }
 
-$headings: (
-
-    h1: 200px,
-    h2: 100px,
-    h3: 50px,
-    h4: 25px,
-
-);
-
-$h1 : map-get($headings, h1 );
-
-h1 {
-    font-size: $h1;
-}
-
-$colores: (
-
-    primario: #0000,
-    secundario: #804000
-);
 
 
 
